@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { X, Sparkles, Loader } from 'lucide-react';
-import { generateAnalysis } from '../utils/ai';
+import { X, Sparkles, Loader, CheckCircle, AlertTriangle } from 'lucide-react';
+import { generateAnalysis, AnalysisData } from '../utils/ai';
 
 interface AIAnalysisModalProps {
   isOpen: boolean;
@@ -11,7 +11,7 @@ interface AIAnalysisModalProps {
 }
 
 export function AIAnalysisModal({ isOpen, onClose, subjectId, resultId, type }: AIAnalysisModalProps) {
-  const [analysis, setAnalysis] = useState('');
+  const [analysis, setAnalysis] = useState<AnalysisData | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
@@ -20,7 +20,7 @@ export function AIAnalysisModal({ isOpen, onClose, subjectId, resultId, type }: 
   const handleGenerate = async () => {
     setLoading(true);
     setError('');
-    setAnalysis('');
+    setAnalysis(null);
 
     try {
       const result = await generateAnalysis(type, subjectId, resultId);
@@ -34,18 +34,18 @@ export function AIAnalysisModal({ isOpen, onClose, subjectId, resultId, type }: 
 
   const handleClose = () => {
     onClose();
-    setAnalysis('');
+    setAnalysis(null);
     setError('');
   };
 
   const title = type === 'subject' ? 'AI Strength & Weakness Analysis' : 'AI Study Plan';
-  const description = type === 'subject' 
+  const description = type === 'subject'
     ? 'Get personalized insights about your performance across all quizzes in this subject'
     : 'Get a personalized study plan based on your quiz performance';
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-xl shadow-xl w-full max-w-2xl mx-4 max-h-[90vh] overflow-hidden">
+      <div className="bg-white rounded-xl shadow-xl w-full max-w-2xl mx-4 max-h-[90vh] flex flex-col">
         <div className="flex items-center justify-between p-6 border-b border-slate-200">
           <div className="flex items-center space-x-2">
             <Sparkles className="h-5 w-5 text-purple-600" />
@@ -59,7 +59,7 @@ export function AIAnalysisModal({ isOpen, onClose, subjectId, resultId, type }: 
           </button>
         </div>
 
-        <div className="p-6">
+        <div className="p-6 overflow-y-auto flex-1">
           <p className="text-slate-600 mb-6">{description}</p>
 
           {error && (
@@ -88,12 +88,40 @@ export function AIAnalysisModal({ isOpen, onClose, subjectId, resultId, type }: 
           )}
 
           {analysis && (
-            <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg p-6">
-              <div className="prose prose-sm max-w-none">
-                <pre className="whitespace-pre-wrap text-slate-700 font-sans leading-relaxed">
-                  {analysis}
-                </pre>
+            <div className="space-y-6">
+              {/* Strengths Section */}
+              <div>
+                <div className="flex items-center space-x-2 mb-3">
+                  <CheckCircle className="h-6 w-6 text-green-600" />
+                  <h3 className="text-lg font-semibold text-slate-800">Your Strengths</h3>
+                </div>
+                <div className="space-y-3">
+                  {analysis.strengths.map((item, index) => (
+                    <div key={index} className="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <p className="font-semibold text-green-800">{item.topic}</p>
+                      <p className="text-sm text-green-700 mt-1">{item.description}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
+
+              {/* Improvements Section */}
+              {analysis.improvements.length > 0 && (
+                <div>
+                  <div className="flex items-center space-x-2 mb-3">
+                    <AlertTriangle className="h-6 w-6 text-yellow-600" />
+                    <h3 className="text-lg font-semibold text-slate-800">Areas to Improve</h3>
+                  </div>
+                  <div className="space-y-3">
+                    {analysis.improvements.map((item, index) => (
+                      <div key={index} className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                        <p className="font-semibold text-yellow-800">{item.topic}</p>
+                        <p className="text-sm text-yellow-700 mt-1">{item.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>
