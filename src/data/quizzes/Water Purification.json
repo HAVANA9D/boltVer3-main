@@ -1,0 +1,26 @@
+{
+  "subjectName": "EVS Water Supply",
+  "title": "Water Purification Methods",
+  "difficulty": "Medium",
+  "type": "Theory",
+  "questions": [
+    {
+      "question": "Which chemical is commonly used to disinfect water?",
+      "answerOptions": [
+        { "text": "Fluoride", "isCorrect": false },
+        { "text": "Chlorine", "isCorrect": true },
+        { "text": "Salt", "isCorrect": false },
+        { "text": "Vinegar", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the process of removing salt from seawater called?",
+      "answerOptions": [
+        { "text": "Filtration", "isCorrect": false },
+        { "text": "Aeration", "isCorrect": false },
+        { "text": "Desalination", "isCorrect": true },
+        { "text": "Sedimentation", "isCorrect": false }
+      ]
+    }
+  ]
+}

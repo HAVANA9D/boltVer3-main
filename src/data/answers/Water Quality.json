@@ -1,0 +1,95 @@
+{
+  "quizTitle": "Water Quality",
+ "answeredQuestions": [
+    {
+      "question": "Which statement accurately describes the relationship between Total Hardness (TH) and Alkalinity when Non-Carbonate Hardness (NCH) is zero?",
+      "correctAnswer": "Total Alkalinity is greater than or equal to Total Hardness.",
+      "userAnswer": "Total Alkalinity is greater than or equal to Total Hardness.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "The presence of E. coli in a water sample is a significant concern because it indicates:",
+      "correctAnswer": "The water is polluted with fecal discharge.",
+      "userAnswer": "The water contains pathogenic viruses.",
+      "userIsCorrect": false
+    },
+    {
+      "question": "What is the primary cause of Methemoglobinemia, or 'blue baby syndrome'?",
+      "correctAnswer": "Excessive nitrate concentration in drinking water.",
+      "userAnswer": "Excessive nitrate concentration in drinking water.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "In the context of water quality, what does 'Alkalinity' measure?",
+      "correctAnswer": "The capacity of water to neutralize acids.",
+      "userAnswer": "The capacity of water to neutralize acids.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "Which laboratory procedure is the standard method for determining the total hardness of a water sample?",
+      "correctAnswer": "EDTA Titration using Eriochrome Black T indicator.",
+      "userAnswer": "EDTA Titration using Eriochrome Black T indicator.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "Which of these water sources is most likely to have naturally high levels of dissolved solids but low turbidity?",
+      "correctAnswer": "Groundwater from a deep well.",
+      "userAnswer": "River water during a storm.",
+      "userIsCorrect": false
+    },
+    {
+      "question": "The term 'Non-Carbonate Hardness' refers to hardness caused by the salts of which anions?",
+      "correctAnswer": "Sulfates, Chlorides, and Nitrates.",
+      "userAnswer": "Sulfates, Chlorides, and Nitrates.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "What does the Threshold Odor Number (TON) represent?",
+      "correctAnswer": "The dilution ratio at which an odor becomes just detectable.",
+      "userAnswer": "A standard for acceptable odor in drinking water.",
+      "userIsCorrect": false
+    },
+    {
+      "question": "Boiler-feed water requires extremely low levels of hardness primarily to:",
+      "correctAnswer": "Prevent the formation of scale on boiler surfaces.",
+      "userAnswer": "Prevent the formation of scale on boiler surfaces.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "A high value for Electrical Conductivity (EC) in a water sample generally implies:",
+      "correctAnswer": "A high concentration of dissolved ionized solids.",
+      "userAnswer": "A high concentration of dissolved ionized solids.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "What is the primary health concern related to excessive fluoride in drinking water?",
+      "correctAnswer": "Dental fluorosis and skeletal problems.",
+      "userAnswer": "Dental fluorosis and skeletal problems.",
+      "userIsCorrect": true
+    },
+    {
+      "question": "What does the unit 'MPN' stand for and what does it quantify?",
+      "correctAnswer": "Most Probable Number, quantifying pathogenic bacteria.",
+      "userAnswer": "Minimum Purity Number, quantifying overall water purity.",
+      "userIsCorrect": false
+    },
+    {
+      "question": "The desirable limit for total hardness in drinking water, as per Indian standards, is typically around:",
+      "correctAnswer": "200 mg/L as CaCO₃",
+      "userAnswer": "200 mg/L as CaCO₃",
+      "userIsCorrect": true
+    },
+    {
+      "question": "In Mohr's method for chloride determination, what is the role of potassium chromate?",
+      "correctAnswer": "It acts as an indicator.",
+      "userAnswer": "It adjusts the pH of the water sample.",
+      "userIsCorrect": false
+    },
+    {
+      "question": "Which of the following is a key characteristic of E. coli that makes it a useful indicator organism?",
+      "correctAnswer": "It is an obligate aerobe that only survives in oxygen-rich water.",
+      "userAnswer": "It is a spore-forming and gram-positive bacterium.",
+      "userIsCorrect": false
+    }
+  ]
+}

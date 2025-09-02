@@ -1,0 +1,424 @@
+{
+  "subjectName": "EVS Water Supply",
+  "title": "Water Quality",
+  "difficulty": "Medium",
+  "type": "Theory",
+  "questions": [
+    {
+      "question": "Which statement accurately describes the relationship between Total Hardness (TH) and Alkalinity when Non-Carbonate Hardness (NCH) is zero?",
+      "hint": "Consider the formula NCH = TH - CH and the definition of Carbonate Hardness (CH).",
+      "answerOptions": [
+        {
+          "text": "Total Hardness is greater than Total Alkalinity.",
+          "isCorrect": false,
+          "rationale": "This condition would result in the presence of Non-Carbonate Hardness, as TH would exceed the alkalinity available to form carbonates."
+        },
+        {
+          "text": "Total Alkalinity is greater than or equal to Total Hardness.",
+          "isCorrect": true,
+          "rationale": "In this case, all the hardness-causing ions can be balanced by alkalinity ions (bicarbonates/carbonates), meaning all hardness is Carbonate Hardness."
+        },
+        {
+          "text": "Total Hardness is exactly equal to Non-Carbonate Hardness.",
+          "isCorrect": false,
+          "rationale": "This would only be true if Carbonate Hardness was zero, which contradicts the condition that Non-Carbonate Hardness is zero."
+        },
+        {
+          "text": "Total Alkalinity is less than Total Hardness.",
+          "isCorrect": false,
+          "rationale": "If alkalinity is less than total hardness, the difference between the two results in Non-Carbonate Hardness."
+        }
+      ]
+    },
+    {
+      "question": "The presence of E. coli in a water sample is a significant concern because it indicates:",
+      "hint": "Think about where this specific type of bacteria is commonly found in nature.",
+      "answerOptions": [
+        {
+          "text": "The water has high levels of turbidity.",
+          "isCorrect": false,
+          "rationale": "While related to pollution, turbidity is a measure of suspended solids, not directly an indicator of microbiological contamination."
+        },
+        {
+          "text": "The water is polluted with fecal discharge.",
+          "isCorrect": true,
+          "rationale": "E. coli is an indicator organism that lives in the intestines of warm-blooded animals, so its presence signals contamination from sewage or animal waste."
+        },
+        {
+          "text": "The water contains pathogenic viruses.",
+          "isCorrect": false,
+          "rationale": "The presence of E. coli suggests pathogens *may* be present, but it does not directly confirm the presence of viruses."
+        },
+        {
+          "text": "The water is 'soft' and low in mineral content.",
+          "isCorrect": false,
+          "rationale": "The presence of bacteria has no correlation with the water's hardness or mineral content."
+        }
+      ]
+    },
+    {
+      "question": "What is the primary cause of Methemoglobinemia, or 'blue baby syndrome'?",
+      "hint": "This condition is related to a nitrogen compound that affects the oxygen-carrying capacity of blood.",
+      "answerOptions": [
+        {
+          "text": "Excessive chloride concentration in drinking water.",
+          "isCorrect": false,
+          "rationale": "High chloride levels primarily affect the taste of water and can be corrosive, but are not linked to this illness."
+        },
+        {
+          "text": "High levels of calcium and magnesium ions.",
+          "isCorrect": false,
+          "rationale": "These ions contribute to water hardness and can cause scale, but they do not cause Methemoglobinemia."
+        },
+        {
+          "text": "Excessive nitrate concentration in drinking water.",
+          "isCorrect": true,
+          "rationale": "Nitrates, when ingested by infants, can interfere with the blood's ability to carry oxygen, leading to this specific condition."
+        },
+        {
+          "text": "Low pH or acidic water.",
+          "isCorrect": false,
+          "rationale": "Acidic water can cause issues like pipe corrosion and leaching of metals, but is not the direct cause of this syndrome."
+        }
+      ]
+    },
+    {
+      "question": "In the context of water quality, what does 'Alkalinity' measure?",
+      "hint": "Think about how the water's chemical composition allows it to resist changes in pH.",
+      "answerOptions": [
+        {
+          "text": "The concentration of dissolved oxygen.",
+          "isCorrect": false,
+          "rationale": "Dissolved oxygen is a separate parameter crucial for aquatic life, but it is not a measure of alkalinity."
+        },
+        {
+          "text": "The concentration of multivalent metallic ions.",
+          "isCorrect": false,
+          "rationale": "The concentration of multivalent metallic ions, like Ca²⁺ and Mg²⁺, defines water hardness, not alkalinity."
+        },
+        {
+          "text": "The capacity of water to neutralize acids.",
+          "isCorrect": true,
+          "rationale": "This is the correct definition. Alkalinity represents the water's buffering capacity, primarily due to bicarbonate, carbonate, and hydroxide ions."
+        },
+        {
+          "text": "The amount of suspended solids in the water.",
+          "isCorrect": false,
+          "rationale": "Suspended solids contribute to turbidity, which is a physical characteristic, not the chemical property of alkalinity."
+        }
+      ]
+    },
+    {
+      "question": "Which laboratory procedure is the standard method for determining the total hardness of a water sample?",
+      "hint": "This method involves a chemical that forms a complex with the ions responsible for hardness.",
+      "answerOptions": [
+        {
+          "text": "Mohr's Method using silver nitrate.",
+          "isCorrect": false,
+          "rationale": "Mohr's Method is specifically used to measure the concentration of chloride ions in a water sample."
+        },
+        {
+          "text": "Titration with a strong acid using methyl orange indicator.",
+          "isCorrect": false,
+          "rationale": "This procedure is used to measure the total alkalinity of a water sample, not its hardness."
+        },
+        {
+          "text": "Nephelometric measurement.",
+          "isCorrect": false,
+          "rationale": "Nephelometry is a technique used to measure the turbidity of water by analyzing how it scatters light."
+        },
+        {
+          "text": "EDTA Titration using Eriochrome Black T indicator.",
+          "isCorrect": true,
+          "rationale": "This is the standard complexometric titration method where EDTA binds with calcium and magnesium ions to determine total hardness."
+        }
+      ]
+    },
+    {
+      "question": "Which of these water sources is most likely to have naturally high levels of dissolved solids but low turbidity?",
+      "hint": "Consider the natural filtration process that occurs as water moves through the earth.",
+      "answerOptions": [
+        {
+          "text": "River water during a storm.",
+          "isCorrect": false,
+          "rationale": "River water, especially during a storm, would have very high turbidity due to runoff and suspended sediment."
+        },
+        {
+          "text": "Groundwater from a deep well.",
+          "isCorrect": true,
+          "rationale": "Groundwater percolates through soil and rock, dissolving minerals (high TDS) but filtering out suspended particles (low turbidity)."
+        },
+        {
+          "text": "A shallow, stagnant pond.",
+          "isCorrect": false,
+          "rationale": "A stagnant pond might have high turbidity due to algae and organic matter, though its dissolved solids could vary."
+        },
+        {
+          "text": "Collected rainwater.",
+          "isCorrect": false,
+          "rationale": "Rainwater is naturally soft and has very low levels of dissolved solids as it has not yet come into contact with minerals in the ground."
+        }
+      ]
+    },
+    {
+      "question": "The term 'Non-Carbonate Hardness' refers to hardness caused by the salts of which anions?",
+      "hint": "This type of hardness is what remains after all the alkalinity has been accounted for.",
+      "answerOptions": [
+        {
+          "text": "Bicarbonates and Carbonates.",
+          "isCorrect": false,
+          "rationale": "Hardness associated with bicarbonate and carbonate anions is defined as Carbonate Hardness."
+        },
+        {
+          "text": "Hydroxides and Oxides.",
+          "isCorrect": false,
+          "rationale": "Hydroxides contribute to alkalinity but are not the primary anions associated with Non-Carbonate Hardness."
+        },
+        {
+          "text": "Sulfates, Chlorides, and Nitrates.",
+          "isCorrect": true,
+          "rationale": "When hardness-causing cations (like Ca²⁺ and Mg²⁺) are associated with these anions, it results in Non-Carbonate Hardness."
+        },
+        {
+          "text": "Phosphates and Silicates.",
+          "isCorrect": false,
+          "rationale": "While these can be present in water, they are not the defining anions for the classification of Non-Carbonate Hardness."
+        }
+      ]
+    },
+    {
+      "question": "What does the Threshold Odor Number (TON) represent?",
+      "hint": "The name 'Threshold' refers to the limit of human perception.",
+      "answerOptions": [
+        {
+          "text": "The concentration of odor-causing chemicals.",
+          "isCorrect": false,
+          "rationale": "TON is a dilution-based measure of odor intensity, not a direct measurement of the chemical concentration."
+        },
+        {
+          "text": "The number of different odors detected in a sample.",
+          "isCorrect": false,
+          "rationale": "TON quantifies the intensity of the overall odor, not the variety of different odors present."
+        },
+        {
+          "text": "The dilution ratio at which an odor becomes just detectable.",
+          "isCorrect": true,
+          "rationale": "This is the correct definition; it indicates how many times a sample must be diluted with odor-free water for the odor to be barely perceptible."
+        },
+        {
+          "text": "A standard for acceptable odor in drinking water.",
+          "isCorrect": false,
+          "rationale": "While there are standards for TON (e.g., should not exceed 3), the number itself is a measurement, not the standard."
+        }
+      ]
+    },
+    {
+      "question": "Boiler-feed water requires extremely low levels of hardness primarily to:",
+      "hint": "Consider what happens to dissolved minerals when water is heated to high temperatures.",
+      "answerOptions": [
+        {
+          "text": "Prevent the growth of bacteria in the boiler.",
+          "isCorrect": false,
+          "rationale": "Bacteria are typically killed during the boiling process, so this is not the primary reason for controlling hardness."
+        },
+        {
+          "text": "Avoid imparting a metallic taste to the steam.",
+          "isCorrect": false,
+          "rationale": "Taste is not a concern for industrial steam, and hardness ions don't typically cause a metallic taste."
+        },
+        {
+          "text": "Prevent the formation of scale on boiler surfaces.",
+          "isCorrect": true,
+          "rationale": "When hard water is heated, hardness-causing minerals precipitate and form insulating scale, which reduces efficiency and can cause overheating."
+        },
+        {
+          "text": "Reduce the electrical conductivity of the water.",
+          "isCorrect": false,
+          "rationale": "While removing ions does reduce conductivity, the main and most critical purpose is to prevent damaging scale formation."
+        }
+      ]
+    },
+    {
+      "question": "A high value for Electrical Conductivity (EC) in a water sample generally implies:",
+      "hint": "Think about what is required for an electrical current to pass through water.",
+      "answerOptions": [
+        {
+          "text": "A low concentration of Total Dissolved Solids (TDS).",
+          "isCorrect": false,
+          "rationale": "EC and TDS are directly proportional; a high EC value indicates a high, not low, concentration of TDS."
+        },
+        {
+          "text": "The water is likely to be very soft.",
+          "isCorrect": false,
+          "rationale": "Soft water has low mineral content, which would result in low electrical conductivity."
+        },
+        {
+          "text": "A high concentration of dissolved ionized solids.",
+          "isCorrect": true,
+          "rationale": "EC measures the ability of water to conduct an electric current, which depends on the presence of charged ions from dissolved solids."
+        },
+        {
+          "text": "The presence of non-ionic organic compounds.",
+          "isCorrect": false,
+          "rationale": "Non-ionic compounds do not dissociate into charged ions in water and therefore do not contribute significantly to electrical conductivity."
+        }
+      ]
+    },
+    {
+      "question": "What is the primary health concern related to excessive fluoride in drinking water?",
+      "hint": "This element is beneficial in small amounts for teeth but becomes harmful at high concentrations.",
+      "answerOptions": [
+        {
+          "text": "Dental fluorosis and skeletal problems.",
+          "isCorrect": true,
+          "rationale": "While low levels of fluoride help prevent tooth decay, excessive concentrations can cause mottling of teeth (dental fluorosis) and, in severe cases, skeletal issues."
+        },
+        {
+          "text": "Laxative effects.",
+          "isCorrect": false,
+          "rationale": "Laxative effects are typically associated with high concentrations of sulfate, not fluoride."
+        },
+        {
+          "text": "Imparting a salty taste to the water.",
+          "isCorrect": false,
+          "rationale": "A salty taste is usually caused by high concentrations of chloride ions."
+        },
+        {
+          "text": "Causing stains on laundry and plumbing fixtures.",
+          "isCorrect": false,
+          "rationale": "Staining is most often caused by dissolved iron and manganese, not fluoride."
+        }
+      ]
+    },
+    {
+      "question": "What does the unit 'MPN' stand for and what does it quantify?",
+      "hint": "This is a statistical method used when bacteria are too dilute to count directly on a plate.",
+      "answerOptions": [
+        {
+          "text": "Maximum Permissible Number, quantifying chemical pollutants.",
+          "isCorrect": false,
+          "rationale": "MPN is related to microbiology, not the permissible limits of chemical pollutants."
+        },
+        {
+          "text": "Most Probable Number, quantifying pathogenic bacteria.",
+          "isCorrect": true,
+          "rationale": "This is the correct term. It's a statistical estimate of the concentration of viable microorganisms, like coliforms, in a sample."
+        },
+        {
+          "text": "Measured Particle Number, quantifying turbidity.",
+          "isCorrect": false,
+          "rationale": "Turbidity is measured in NTU (Nephelometric Turbidity Units), not MPN."
+        },
+        {
+          "text": "Minimum Purity Number, quantifying overall water purity.",
+          "isCorrect": false,
+          "rationale": "MPN is a specific test for bacteria, not a general index of overall water purity."
+        }
+      ]
+    },
+    {
+      "question": "The desirable limit for total hardness in drinking water, as per Indian standards, is typically around:",
+      "hint": "The standard value is a balance between preventing corrosion from soft water and avoiding excessive scale from very hard water.",
+      "answerOptions": [
+        {
+          "text": "20 mg/L as CaCO₃",
+          "isCorrect": false,
+          "rationale": "This level would be considered very soft water. The acceptable limit is significantly higher."
+        },
+        {
+          "text": "100 mg/L as CaCO₃",
+          "isCorrect": false,
+          "rationale": "While this is within the acceptable range, the upper desirable limit is higher."
+        },
+        {
+          "text": "200 mg/L as CaCO₃",
+          "isCorrect": true,
+          "rationale": "This is the standard acceptable or desirable limit for total hardness in drinking water supplies."
+        },
+        {
+          "text": "600 mg/L as CaCO₃",
+          "isCorrect": false,
+          "rationale": "This is the maximum permissible limit in the absence of an alternate source, but it is well above the desirable limit and would be considered very hard water."
+        }
+      ]
+    },
+    {
+      "question": "In Mohr's method for chloride determination, what is the role of potassium chromate?",
+      "hint": "Think about how the chemist knows when to stop adding the titrant.",
+      "answerOptions": [
+        {
+          "text": "It is the titrant that reacts with chloride.",
+          "isCorrect": false,
+          "rationale": "The titrant used in this method is silver nitrate, not potassium chromate."
+        },
+        {
+          "text": "It acts as an indicator.",
+          "isCorrect": true,
+          "rationale": "Correct. It reacts with excess silver nitrate after all the chloride has precipitated, forming a reddish-brown precipitate that signals the endpoint."
+        },
+        {
+          "text": "It precipitates the chloride ions from the solution.",
+          "isCorrect": false,
+          "rationale": "The silver nitrate is what precipitates the chloride ions as silver chloride."
+        },
+        {
+          "text": "It adjusts the pH of the water sample.",
+          "isCorrect": false,
+          "rationale": "While pH is important for the test, potassium chromate's function is to indicate the endpoint, not to buffer the solution."
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a key characteristic of E. coli that makes it a useful indicator organism?",
+      "hint": "Consider its ability to survive in different oxygen environments, which is a trait shared with many pathogens.",
+      "answerOptions": [
+        {
+          "text": "It is a spore-forming and gram-positive bacterium.",
+          "isCorrect": false,
+          "rationale": "E. coli is actually a non-spore-forming and gram-negative bacterium."
+        },
+        {
+          "text": "It is an obligate aerobe that only survives in oxygen-rich water.",
+          "isCorrect": true,
+          "rationale": "E. coli is a facultative anaerobe, meaning it can survive with or without oxygen."
+        },
+        {
+          "text": "It is naturally found in soil and aquatic environments.",
+          "isCorrect": false,
+          "rationale": "While it can be found in these environments due to contamination, its primary habitat is the intestines of warm-blooded animals, which is why it indicates fecal pollution."
+        },
+        {
+          "text": "It is difficult and slow to detect in laboratory tests.",
+          "isCorrect": false,
+          "rationale": "A key reason it's used as an indicator is that it is relatively easy and quick to detect compared to testing for every possible pathogen."
+        }
+      ]
+    }
+  ],
+  "quiz_summary": {
+    "strengths_feedback": [
+      {
+        "topic": "Chemical Water Quality",
+        "description": "You demonstrate a strong understanding of chemical water parameters. You correctly answered questions about Total Hardness, Alkalinity, Non-Carbonate Hardness, and the relationships between them. Your knowledge of specific contaminants like nitrates and fluorides, their health effects, and standard testing methods like EDTA titration is excellent."
+      },
+      {
+        "topic": "Practical Applications",
+        "description": "You correctly identified the practical reasons for controlling water quality, such as preventing scale formation in boilers, and understood how to interpret parameters like Electrical Conductivity."
+      }
+    ],
+    "improvements_feedback": [
+      {
+        "topic": "Microbiological Indicators",
+        "description": "This is an area with potential for improvement. Focus on the specific role of E. coli as an indicator of fecal contamination (rather than viruses directly), its key characteristics, and the meaning of terms like Most Probable Number (MPN)."
+      },
+      {
+        "topic": "Physical Parameters & Source Characteristics",
+        "description": "Reviewing certain physical parameters would be beneficial. Specifically, clarify the definition of Threshold Odor Number (TON) and the typical characteristics (turbidity vs. dissolved solids) of different water sources like groundwater versus surface water."
+      },
+      {
+        "topic": "Analytical Chemistry Methods",
+        "description": "There was some difficulty with the specifics of certain laboratory tests. For example, reviewing the function of indicators like potassium chromate in Mohr's method for chloride analysis would be helpful."
+      }
+    ]
+  }
+}

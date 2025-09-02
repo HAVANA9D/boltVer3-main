@@ -1,0 +1,17 @@
+{
+  "quizTitle": "Water Purification Methods",
+  "answeredQuestions": [
+    {
+      "question": "Which chemical is commonly used to disinfect water?",
+      "userAnswer": "Fluoride",
+      "userIsCorrect": false,
+      "correctAnswer": "Chlorine"
+    },
+    {
+      "question": "What is the process of removing salt from seawater called?",
+      "userAnswer": "Desalination",
+      "userIsCorrect": true,
+      "correctAnswer": "Desalination"
+    }
+  ]
+}
