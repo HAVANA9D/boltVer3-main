@@ -1,7 +1,5 @@
 {
   "quizTitle": "Coagulation",
-
-  "quizTitle": "Coagulation in Water Treatment",
   "answeredQuestions": [
     {
       "question": "What is the primary objective of the coagulation process in water treatment?",
@@ -18,13 +16,13 @@
     {
       "question": "When alum (aluminum sulfate) is added to water, it consumes a certain chemical component to be effective. What is this component?",
       "userAnswer": "Alkalinity",
-      "userIsCorrect": false,
+      "userIsCorrect": true,
       "correctAnswer": "Alkalinity"
     },
     {
       "question": "What is the primary mechanism of 'sweep coagulation'?",
-      "userAnswer": "Enmeshing colloidal particles in a large, sinking precipitate of metal hydroxide.",
-      "userIsCorrect": true,
+      "userAnswer": "",
+      "userIsCorrect": false,
       "correctAnswer": "Enmeshing colloidal particles in a large, sinking precipitate of metal hydroxide."
     },
     {

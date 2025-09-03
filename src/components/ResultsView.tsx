@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Trophy, CheckCircle, XCircle, Sparkles } from 'lucide-react';
+import { ArrowLeft, Trophy, CheckCircle, XCircle, Sparkles, Download } from 'lucide-react';
 import { View } from '../App';
 import { getQuizResult, getQuiz, QuizResult, Quiz } from '../utils/database';
 import { AIAnalysisModal } from './AIAnalysisModal';
@@ -45,6 +45,37 @@ export function ResultsView({ resultId, onNavigate }: ResultsViewProps) {
     if (score >= 80) return 'text-green-600';
     if (score >= 60) return 'text-yellow-600';
     return 'text-red-600';
+  };
+
+  const handleDownloadResults = () => {
+    if (!result || !quiz) return;
+
+    // 1. Structure the data in the requested format
+    const downloadData = {
+      quizTitle: quiz.title,
+      answeredQuestions: result.answeredQuestions.map(q => ({
+        question: q.question,
+        userAnswer: q.userAnswer,
+        userIsCorrect: q.userIsCorrect,
+        correctAnswer: q.correctAnswer,
+      })),
+    };
+
+    // 2. Create a downloadable file
+    const jsonString = JSON.stringify(downloadData, null, 2);
+    const blob = new Blob([jsonString], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    // 3. Trigger the download
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `quiz-results-${quiz.title.replace(/\s/g, '_')}.json`;
+    document.body.appendChild(a);
+    a.click();
+
+    // 4. Clean up
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
   return (
@@ -136,19 +167,26 @@ export function ResultsView({ resultId, onNavigate }: ResultsViewProps) {
       {/* --- END OF NEW REVIEW SECTION --- */}
 
 
-      {/* Actions */}
-      <div className="flex space-x-4">
+        {/* Actions */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <button
           onClick={() => onNavigate('quiz', { quizId: quiz.id })}
-          className="flex-1 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 font-medium"
+          className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 font-medium"
         >
           Retake Quiz
         </button>
         <button
           onClick={() => onNavigate('subject', { subjectId: result.subjectId })}
-          className="flex-1 border border-slate-300 text-slate-700 px-6 py-3 rounded-lg hover:bg-slate-50 font-medium"
+          className="border border-slate-300 text-slate-700 px-6 py-3 rounded-lg hover:bg-slate-50 font-medium"
         >
           Back to Subject
+        </button>
+        <button
+          onClick={handleDownloadResults}
+          className="flex items-center justify-center space-x-2 bg-slate-600 text-white px-6 py-3 rounded-lg hover:bg-slate-700 font-medium"
+        >
+          <Download className="h-4 w-4" />
+          <span>Download Results</span>
         </button>
       </div>
 

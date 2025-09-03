@@ -24,6 +24,7 @@ export interface Quiz {
   createdAt: Date;
   difficulty?: 'Easy' | 'Medium' | 'Hard';
   type?: 'Numerical' | 'Theory';
+  questions: Question[];
 }
 export interface AnsweredQuestion {
   question: string;

@@ -38,19 +38,29 @@ export function QuizView({ quizId, onNavigate }: QuizViewProps) {
     loadQuiz();
   }, [quizId]);
 
-  const handleAnswerSelect = (answerIndex: number) => {
-    setQuizState(prev => ({
-      ...prev,
-      answers: { ...prev.answers, [prev.currentQuestionIndex]: answerIndex }
-    }));
+   const handleAnswerSelect = (answerIndex: number) => {
+    setQuizState(prev => {
+      const currentAnswers = { ...prev.answers };
+
+      // If the clicked answer is already selected, unselect it by deleting the key
+      if (currentAnswers[prev.currentQuestionIndex] === answerIndex) {
+        delete currentAnswers[prev.currentQuestionIndex];
+      } else {
+        // Otherwise, select the new answer
+        currentAnswers[prev.currentQuestionIndex] = answerIndex;
+      }
+
+      return { ...prev, answers: currentAnswers };
+    });
+  };
+
+  const handleQuestionJump = (questionIndex: number) => {
+    setQuizState(prev => ({ ...prev, currentQuestionIndex: questionIndex }));
   };
 
   const handleNext = () => {
     if (!quiz) return;
-    const isLastQuestion = quizState.currentQuestionIndex === quiz.questions.length - 1;
-    if (isLastQuestion) {
-      handleFinishQuiz();
-    } else {
+    if (quizState.currentQuestionIndex < quiz.questions.length - 1) {
       setQuizState(prev => ({ ...prev, currentQuestionIndex: prev.currentQuestionIndex + 1 }));
     }
   };
@@ -61,7 +71,6 @@ export function QuizView({ quizId, onNavigate }: QuizViewProps) {
 
   const handleFinishQuiz = async () => {
     if (!quiz) return;
-
     try {
       const answeredQuestions = quiz.questions.map((question, index) => {
         const selectedAnswerIndex = quizState.answers[index];
@@ -104,12 +113,12 @@ export function QuizView({ quizId, onNavigate }: QuizViewProps) {
 
   const currentQuestion = quiz.questions[quizState.currentQuestionIndex];
   const selectedAnswer = quizState.answers[quizState.currentQuestionIndex];
-  const progress = ((quizState.currentQuestionIndex + 1) / quiz.questions.length) * 100;
+  const progress = (Object.keys(quizState.answers).length / quiz.questions.length) * 100;
   const isLastQuestion = quizState.currentQuestionIndex === quiz.questions.length - 1;
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6">
-      <div className="flex items-center space-x-4">
+    <div className="max-w-7xl mx-auto space-y-6">
+      <div className="flex items-center space-x-4 mb-4">
         <button
           onClick={() => onNavigate('subject', { subjectId: quiz.subjectId })}
           className="p-2 text-slate-600 hover:bg-slate-100 rounded-lg"
@@ -118,60 +127,101 @@ export function QuizView({ quizId, onNavigate }: QuizViewProps) {
         </button>
         <div>
           <h1 className="text-2xl font-bold text-slate-800">{quiz.title}</h1>
-          <p className="text-slate-600">
-            Question {quizState.currentQuestionIndex + 1} of {quiz.questions.length}
-          </p>
         </div>
       </div>
 
-      <div className="w-full bg-slate-200 rounded-full h-2">
-        <div
-          className="bg-blue-600 h-2 rounded-full transition-all"
-          style={{ width: `${progress}%` }}
-        />
-      </div>
-
-      <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-8">
-        <h2 className="text-xl font-semibold text-slate-800 mb-6">{currentQuestion.question}</h2>
-        <div className="space-y-3">
-          {currentQuestion.answerOptions.map((option, index) => (
-            <button
-              key={index}
-              onClick={() => handleAnswerSelect(index)}
-              className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
-                selectedAnswer === index
-                  ? 'border-blue-500 bg-blue-50'
-                  : 'border-slate-200 hover:border-slate-300'
-              }`}
-            >
-              <div className="flex items-center space-x-3 font-medium">
-                <div
-                  className={`w-5 h-5 flex-shrink-0 rounded-full border-2 ${
-                    selectedAnswer === index ? 'border-blue-500 bg-blue-500' : 'border-slate-300'
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Left Column: Question & Answers */}
+        <div className="md:col-span-2">
+          <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-8">
+            <p className="text-slate-600 mb-2">
+              Question {quizState.currentQuestionIndex + 1} of {quiz.questions.length}
+            </p>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-8">{currentQuestion.question}</h2>
+            <div className="space-y-4">
+              {currentQuestion.answerOptions.map((option, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleAnswerSelect(index)}
+                  className={`w-full text-left p-4 rounded-lg border-2 transition-all duration-200 ${
+                    selectedAnswer === index
+                      ? 'border-blue-500 bg-blue-50'
+                      : 'border-slate-200 hover:border-slate-300 bg-white'
                   }`}
-                />
-                <span>{option.text}</span>
-              </div>
-            </button>
-          ))}
+                >
+                  <div className="flex items-center space-x-4">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-md flex items-center justify-center font-bold text-sm bg-slate-100 text-slate-600">
+                      {String.fromCharCode(65 + index)}
+                    </div>
+                    <span className="font-medium text-slate-700">{option.text}</span>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div className="flex justify-between items-center">
-        <button
-          onClick={handlePrevious}
-          disabled={quizState.currentQuestionIndex === 0}
-          className="px-6 py-3 border rounded-lg hover:bg-slate-50 disabled:opacity-50"
-        >
-          Previous
-        </button>
-        <button
-          onClick={handleNext}
-          disabled={selectedAnswer === undefined}
-          className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 disabled:opacity-50"
-        >
-          {isLastQuestion ? 'Finish Quiz' : 'Next'}
-        </button>
+        {/* Right Column: Navigation & Summary */}
+        <div className="space-y-6">
+          <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+            <h3 className="font-semibold text-slate-800 mb-4">Question Palette</h3>
+            <div className="grid grid-cols-5 gap-2">
+              {quiz.questions.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleQuestionJump(index)}
+                  className={`h-10 w-10 rounded-md font-medium text-sm transition-all ${
+                    quizState.currentQuestionIndex === index
+                      ? 'bg-blue-600 text-white shadow'
+                      : quizState.answers[index] !== undefined
+                      ? 'bg-white border-2 border-blue-500 text-blue-500'
+                      : 'bg-slate-200 hover:bg-slate-300 text-slate-700'
+                  }`}
+                >
+                  {index + 1}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+            <h3 className="font-semibold text-slate-800 mb-3">Progress</h3>
+            <div className="w-full bg-slate-200 rounded-full h-2.5">
+              <div
+                className="bg-blue-600 h-2.5 rounded-full transition-all"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+            <p className="text-sm text-slate-600 mt-2 text-center">
+              {Object.keys(quizState.answers).length} of {quiz.questions.length} questions answered
+            </p>
+          </div>
+
+          <div className="flex flex-col space-y-3">
+            <div className="flex space-x-3">
+              <button
+                onClick={handlePrevious}
+                disabled={quizState.currentQuestionIndex === 0}
+                className="flex-1 px-4 py-3 border rounded-lg hover:bg-slate-50 disabled:opacity-50 font-medium"
+              >
+                Previous
+              </button>
+              <button
+                onClick={handleNext}
+                disabled={isLastQuestion}
+                className="flex-1 px-4 py-3 border rounded-lg hover:bg-slate-50 disabled:opacity-50 font-medium"
+              >
+                Next
+              </button>
+            </div>
+            <button
+              onClick={handleFinishQuiz}
+              className="w-full px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors"
+            >
+              Finish & See Results
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
