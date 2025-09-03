@@ -1,0 +1,96 @@
+{
+  "quizTitle": "introduction",
+
+  "answeredQuestions": [
+    {
+      "question": "What is the primary objective of the water treatment process?",
+      "userAnswer": "To render raw water suitable and safe for its intended purpose, like drinking.",
+      "userIsCorrect": true,
+      "correctAnswer": "To render raw water suitable and safe for its intended purpose, like drinking."
+    },
+    {
+      "question": "The selection and sequence of unit operations in a water treatment plant are fundamentally dependent on which two key factors?",
+      "userAnswer": "The quality of the raw water and the desired standard of the treated water.",
+      "userIsCorrect": true,
+      "correctAnswer": "The quality of the raw water and the desired standard of the treated water."
+    },
+    {
+      "question": "What is the main function of the flocculation process?",
+      "userAnswer": "To encourage small suspended particles to aggregate into larger clumps.",
+      "userIsCorrect": true,
+      "correctAnswer": "To encourage small suspended particles to aggregate into larger clumps."
+    },
+    {
+      "question": "For groundwater that has low turbidity (less than 10 NTU) and is free from color and odor, what is often the only treatment required?",
+      "userAnswer": "Plain disinfection.",
+      "userIsCorrect": true,
+      "correctAnswer": "Plain disinfection."
+    },
+    {
+      "question": "In treating groundwater with excessive iron and dissolved gases, why is aeration a crucial first step?",
+      "userAnswer": "It oxidizes the dissolved iron and removes the gases.",
+      "userIsCorrect": true,
+      "correctAnswer": "It oxidizes the dissolved iron and removes the gases."
+    },
+    {
+      "question": "For highly polluted surface water containing algae and other microorganisms, what is the purpose of 'pre-chlorination'?",
+      "userAnswer": "To apply an initial dose of disinfectant to reduce the high microbial load early.",
+      "userIsCorrect": true,
+      "correctAnswer": "To apply an initial dose of disinfectant to reduce the high microbial load early."
+    },
+    {
+      "question": "What is the primary role of the adsorption stage, often using activated carbon, when treating surface water with organics?",
+      "userAnswer": "To destroy pathogenic bacteria and viruses.",
+      "userIsCorrect": false,
+      "correctAnswer": "To remove dissolved organic molecules that cause taste and odor."
+    },
+    {
+      "question": "What principle does sedimentation rely on to remove particles from water?",
+      "userAnswer": "Gravity causing particles denser than water to settle down.",
+      "userIsCorrect": true,
+      "correctAnswer": "Gravity causing particles denser than water to settle down."
+    },
+    {
+      "question": "Why is disinfection considered the most critical final step in producing potable water?",
+      "userAnswer": "It destroys or inactivates disease-causing microorganisms.",
+      "userIsCorrect": true,
+      "correctAnswer": "It destroys or inactivates disease-causing microorganisms."
+    },
+    {
+      "question": "What is the importance of maintaining a chlorine residual in the water distribution system?",
+      "userAnswer": "To provide continuous protection against re-contamination.",
+      "userIsCorrect": true,
+      "correctAnswer": "To provide continuous protection against re-contamination."
+    },
+    {
+      "question": "In the treatment of hard ground water, filtration is performed after the softening step. What is its main purpose at this stage?",
+      "userAnswer": "To remove residual particles of CaCO₃ and Mg(OH)₂.",
+      "userIsCorrect": true,
+      "correctAnswer": "To remove residual particles of CaCO₃ and Mg(OH)₂."
+    },
+    {
+      "question": "Which unit operation is described as the removal of hardness-causing minerals like calcium and magnesium?",
+      "userAnswer": "Softening",
+      "userIsCorrect": true,
+      "correctAnswer": "Softening"
+    },
+    {
+      "question": "Which of these unit operations is a physical process that typically serves as the very first step of treatment to remove large objects?",
+      "userAnswer": "Screening",
+      "userIsCorrect": true,
+      "correctAnswer": "Screening"
+    },
+    {
+      "question": "According to the typical treatment process for turbid surface water, when are coagulants such as alum added?",
+      "userAnswer": "During the mixing step just before flocculation.",
+      "userIsCorrect": true,
+      "correctAnswer": "During the mixing step just before flocculation."
+    },
+    {
+      "question": "The text states that aeration is used to oxidize dissolved iron from Fe²⁺ to Fe³⁺. Why is this conversion necessary?",
+      "userAnswer": "Fe³⁺ is less corrosive to pipes than Fe²⁺.",
+      "userIsCorrect": false,
+      "correctAnswer": "Fe³⁺ forms an insoluble precipitate that can be filtered out."
+    }
+  ]
+}

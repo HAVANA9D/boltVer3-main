@@ -1,0 +1,143 @@
+{
+  "subjectName": "Water treatment",
+  "title": "introduction",
+  "difficulty": "Medium",
+  "type": "Theory",
+  "questions": [
+    {
+      "question": "What is the primary objective of the water treatment process?",
+      "answerOptions": [
+        { "text": "To remove all dissolved minerals and salts from the water.", "isCorrect": false },
+        { "text": "To render raw water suitable and safe for its intended purpose, like drinking.", "isCorrect": true },
+        { "text": "To eliminate only the visible impurities that cause turbidity.", "isCorrect": false },
+        { "text": "To add beneficial minerals and fluoride to the water.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The selection and sequence of unit operations in a water treatment plant are fundamentally dependent on which two key factors?",
+      "answerOptions": [
+        { "text": "The plant's budget and the local climate.", "isCorrect": false },
+        { "text": "The population served and the pressure of the distribution network.", "isCorrect": false },
+        { "text": "The quality of the raw water and the desired standard of the treated water.", "isCorrect": true },
+        { "text": "The availability of land and the automation level of the plant.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the main function of the flocculation process?",
+      "answerOptions": [
+        { "text": "To kill or inactivate pathogenic microorganisms.", "isCorrect": false },
+        { "text": "To remove dissolved gases and oxidize metals like iron.", "isCorrect": false },
+        { "text": "To encourage small suspended particles to aggregate into larger clumps.", "isCorrect": true },
+        { "text": "To pass water through a porous medium to remove impurities.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "For groundwater that has low turbidity (less than 10 NTU) and is free from color and odor, what is often the only treatment required?",
+      "answerOptions": [
+        { "text": "Aeration followed by filtration.", "isCorrect": false },
+        { "text": "Plain disinfection.", "isCorrect": true },
+        { "text": "Flocculation and sedimentation.", "isCorrect": false },
+        { "text": "Softening and deferrization.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In treating groundwater with excessive iron and dissolved gases, why is aeration a crucial first step?",
+      "answerOptions": [
+        { "text": "It adds beneficial minerals to the water.", "isCorrect": false },
+        { "text": "It softens the water by removing calcium.", "isCorrect": false },
+        { "text": "It helps aggregate small particles into flocs.", "isCorrect": false },
+        { "text": "It oxidizes the dissolved iron and removes the gases.", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "For highly polluted surface water containing algae and other microorganisms, what is the purpose of 'pre-chlorination'?",
+      "answerOptions": [
+        { "text": "To soften the water before it enters the main treatment units.", "isCorrect": false },
+        { "text": "To add a protective residual for the distribution system.", "isCorrect": false },
+        { "text": "To apply an initial dose of disinfectant to reduce the high microbial load early.", "isCorrect": true },
+        { "text": "To remove dissolved gases like carbon dioxide.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary role of the adsorption stage, often using activated carbon, when treating surface water with organics?",
+      "answerOptions": [
+        { "text": "To remove large suspended solids like leaves and twigs.", "isCorrect": false },
+        { "text": "To remove dissolved organic molecules that cause taste and odor.", "isCorrect": true },
+        { "text": "To destroy pathogenic bacteria and viruses.", "isCorrect": false },
+        { "text": "To remove hardness-causing minerals like calcium and magnesium.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What principle does sedimentation rely on to remove particles from water?",
+      "answerOptions": [
+        { "text": "Biological consumption of organic matter by microbes.", "isCorrect": false },
+        { "text": "Adhesion of particles to the surface of a filter medium.", "isCorrect": false },
+        { "text": "Gravity causing particles denser than water to settle down.", "isCorrect": true },
+        { "text": "A chemical reaction with coagulants to neutralize charge.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Why is disinfection considered the most critical final step in producing potable water?",
+      "answerOptions": [
+        { "text": "It removes the final traces of turbidity, making the water sparkling clear.", "isCorrect": false },
+        { "text": "It destroys or inactivates disease-causing microorganisms.", "isCorrect": true },
+        { "text": "It adjusts the pH of the water to make it less corrosive.", "isCorrect": false },
+        { "text": "It improves the taste and odor of the water.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the importance of maintaining a chlorine residual in the water distribution system?",
+      "answerOptions": [
+        { "text": "To prevent the pipes from corroding.", "isCorrect": false },
+        { "text": "To ensure the water temperature remains stable.", "isCorrect": false },
+        { "text": "To provide continuous protection against re-contamination.", "isCorrect": true },
+        { "text": "To help soften the water as it travels through the pipes.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In the treatment of hard ground water, filtration is performed after the softening step. What is its main purpose at this stage?",
+      "answerOptions": [
+        { "text": "To remove dissolved organic compounds.", "isCorrect": false },
+        { "text": "To remove residual particles of CaCO₃ and Mg(OH)₂.", "isCorrect": true },
+        { "text": "To remove undesirable gases like H₂S.", "isCorrect": false },
+        { "text": "To kill any pathogenic bacteria remaining in the water.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which unit operation is described as the removal of hardness-causing minerals like calcium and magnesium?",
+      "answerOptions": [
+        { "text": "Aeration", "isCorrect": false },
+        { "text": "Deferrization", "isCorrect": false },
+        { "text": "Filtration", "isCorrect": false },
+        { "text": "Softening", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which of these unit operations is a physical process that typically serves as the very first step of treatment to remove large objects?",
+      "answerOptions": [
+        { "text": "Screening", "isCorrect": true },
+        { "text": "Sedimentation", "isCorrect": false },
+        { "text": "Aeration", "isCorrect": false },
+        { "text": "Disinfection", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "According to the typical treatment process for turbid surface water, when are coagulants such as alum added?",
+      "answerOptions": [
+        { "text": "During the final disinfection step.", "isCorrect": false },
+        { "text": "During aeration to help remove gases.", "isCorrect": false },
+        { "text": "During the mixing step just before flocculation.", "isCorrect": true },
+        { "text": "After filtration to polish the water.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The text states that aeration is used to oxidize dissolved iron from Fe²⁺ to Fe³⁺. Why is this conversion necessary?",
+      "answerOptions": [
+        { "text": "Fe³⁺ is a more effective disinfectant than Fe²⁺.", "isCorrect": false },
+        { "text": "Fe³⁺ forms an insoluble precipitate that can be filtered out.", "isCorrect": true },
+        { "text": "Fe³⁺ helps to soften the water by reacting with calcium.", "isCorrect": false },
+        { "text": "Fe³⁺ is less corrosive to pipes than Fe²⁺.", "isCorrect": false }
+      ]
+    }
+  ]
+}

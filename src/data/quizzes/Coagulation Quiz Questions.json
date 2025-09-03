@@ -1,0 +1,143 @@
+{
+  "subjectName": "Water treatment",
+  "title": "Coagulation",
+  "difficulty": "Medium",
+  "type": "Theory",
+  "questions": [
+    {
+      "question": "What is the primary objective of the coagulation process in water treatment?",
+      "answerOptions": [
+        { "text": "To kill or inactivate pathogenic microorganisms.", "isCorrect": false },
+        { "text": "To destabilize colloidal particles by neutralizing their surface charges.", "isCorrect": true },
+        { "text": "To physically remove large debris like leaves and sticks.", "isCorrect": false },
+        { "text": "To gently agitate water to encourage particle growth.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Why do colloidal particles in raw water tend to remain suspended for long periods?",
+      "answerOptions": [
+        { "text": "They are less dense than water.", "isCorrect": false },
+        { "text": "They possess a small, typically negative, electrical surface charge.", "isCorrect": true },
+        { "text": "They are dissolved in the water like salt.", "isCorrect": false },
+        { "text": "They are too large to be affected by gravity.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When alum (aluminum sulfate) is added to water, it consumes a certain chemical component to be effective. What is this component?",
+      "answerOptions": [
+        { "text": "Dissolved Oxygen", "isCorrect": false },
+        { "text": "Chlorine Residual", "isCorrect": false },
+        { "text": "Hardness", "isCorrect": false },
+        { "text": "Alkalinity", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the primary mechanism of 'sweep coagulation'?",
+      "answerOptions": [
+        { "text": "Neutralizing the surface charge of individual colloids.", "isCorrect": false },
+        { "text": "Using long-chain polymers to bridge between particles.", "isCorrect": false },
+        { "text": "Enmeshing colloidal particles in a large, sinking precipitate of metal hydroxide.", "isCorrect": true },
+        { "text": "Compressing the electrical double layer around colloids.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The laboratory procedure used to determine the optimal dose of a coagulant is known as the:",
+      "answerOptions": [
+        { "text": "Turbidity Test", "isCorrect": false },
+        { "text": "Jar Test", "isCorrect": true },
+        { "text": "pH Test", "isCorrect": false },
+        { "text": "Hardness Test", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the rapid mix (or flash mix) stage in the coagulation process?",
+      "answerOptions": [
+        { "text": "To allow flocs to grow larger by gentle agitation.", "isCorrect": false },
+        { "text": "To let the newly formed flocs settle out by gravity.", "isCorrect": false },
+        { "text": "To quickly and uniformly disperse the coagulant chemical throughout the water.", "isCorrect": true },
+        { "text": "To add chlorine for disinfection before settling.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The effectiveness of alum as a coagulant is highly dependent on which water quality parameter?",
+      "answerOptions": [
+        { "text": "Temperature", "isCorrect": false },
+        { "text": "Dissolved Oxygen", "isCorrect": false },
+        { "text": "pH", "isCorrect": true },
+        { "text": "Conductivity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "A measure of the magnitude of the repulsive electrostatic forces between adjacent colloidal particles is known as:",
+      "answerOptions": [
+        { "text": "Velocity Gradient (G)", "isCorrect": false },
+        { "text": "Surface Overflow Rate (SOR)", "isCorrect": false },
+        { "text": "Zeta Potential", "isCorrect": true },
+        { "text": "Turbidity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a primary advantage of using ferric salts (like ferric chloride) over alum?",
+      "answerOptions": [
+        { "text": "They are significantly less expensive.", "isCorrect": false },
+        { "text": "They produce less sludge.", "isCorrect": false },
+        { "text": "They are effective over a wider pH range.", "isCorrect": true },
+        { "text": "They do not consume any alkalinity.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The coagulation mechanism where high concentrations of ions compress the diffuse electrical layer surrounding a colloid is called:",
+      "answerOptions": [
+        { "text": "Interparticle Bridging", "isCorrect": false },
+        { "text": "Sweep Coagulation", "isCorrect": false },
+        { "text": "Charge Neutralization", "isCorrect": false },
+        { "text": "Double-Layer Compression", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How does a significant drop in water temperature typically affect coagulation?",
+      "answerOptions": [
+        { "text": "It improves efficiency by making the coagulant more soluble.", "isCorrect": false },
+        { "text": "It has no significant effect on the process.", "isCorrect": false },
+        { "text": "It hinders efficiency by slowing down chemical reaction rates and increasing water viscosity.", "isCorrect": true },
+        { "text": "It improves efficiency by killing microorganisms that interfere with the process.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the main role of coagulant aids, such as activated silica or polymers?",
+      "answerOptions": [
+        { "text": "To act as the primary coagulant, replacing alum.", "isCorrect": false },
+        { "text": "To adjust the pH of the water.", "isCorrect": false },
+        { "text": "To disinfect the water during the coagulation stage.", "isCorrect": false },
+        { "text": "To strengthen the floc, increase its density, and improve settling.", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "If raw water has very low turbidity, coagulation can sometimes be difficult. Why?",
+      "answerOptions": [
+        { "text": "The coagulant cannot dissolve properly in clean water.", "isCorrect": false },
+        { "text": "There are not enough colloidal particles to promote the formation of large flocs.", "isCorrect": true },
+        { "text": "Low turbidity water is always acidic, preventing coagulation.", "isCorrect": false },
+        { "text": "The alkalinity is always too low in clean water.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the key difference between coagulation and flocculation?",
+      "answerOptions": [
+        { "text": "Coagulation uses chemical addition, while flocculation uses only physical mixing.", "isCorrect": false },
+        { "text": "Coagulation is the chemical destabilization of particles, while flocculation is the physical process of bringing them together.", "isCorrect": true },
+        { "text": "Coagulation removes large particles, while flocculation removes small particles.", "isCorrect": false },
+        { "text": "Coagulation occurs in a slow mix tank, while flocculation occurs in a rapid mix tank.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Interparticle bridging is a coagulation mechanism most characteristic of which type of coagulant?",
+      "answerOptions": [
+        { "text": "Alum", "isCorrect": false },
+        { "text": "Ferric Chloride", "isCorrect": false },
+        { "text": "Lime", "isCorrect": false },
+        { "text": "Polymers", "isCorrect": true }
+      ]
+    }
+  ]
+}

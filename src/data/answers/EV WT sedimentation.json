@@ -1,0 +1,96 @@
+{
+  "quizTitle": "Sedimentation",
+
+  "answeredQuestions": [
+    {
+      "question": "What is the primary principle that governs the process of sedimentation in water treatment?",
+      "userAnswer": "Gravity",
+      "userIsCorrect": true,
+      "correctAnswer": "Gravity"
+    },
+    {
+      "question": "In the context of sedimentation, what defines Type I, or discrete particle, settling?",
+      "userAnswer": "Particles settle at a constant velocity without interacting with each other.",
+      "userIsCorrect": true,
+      "correctAnswer": "Particles settle at a constant velocity without interacting with each other."
+    },
+    {
+      "question": "Which design parameter is considered the most critical for determining the removal efficiency of discrete particles in an ideal sedimentation tank?",
+      "userAnswer": "Detention time",
+      "userIsCorrect": false,
+      "correctAnswer": "Surface Overflow Rate (SOR)"
+    },
+    {
+      "question": "According to Stokes' Law for discrete particle settling, if the diameter of a spherical particle is doubled, how does its terminal settling velocity change, assuming all other factors remain constant?",
+      "userAnswer": "It increases by a factor of four.",
+      "userIsCorrect": true,
+      "correctAnswer": "It increases by a factor of four."
+    },
+    {
+      "question": "What is the primary purpose of the coagulation and flocculation processes that precede sedimentation?",
+      "userAnswer": "To convert very small, non-settleable particles into larger, settleable flocs.",
+      "userIsCorrect": true,
+      "correctAnswer": "To convert very small, non-settleable particles into larger, settleable flocs."
+    },
+    {
+      "question": "In a sedimentation tank, 'short-circuiting' is a condition that adversely affects performance. What does this term mean?",
+      "userAnswer": "Water flows through the tank faster than the theoretical detention time.",
+      "userIsCorrect": true,
+      "correctAnswer": "Water flows through the tank faster than the theoretical detention time."
+    },
+    {
+      "question": "How does an increase in water temperature typically affect the efficiency of sedimentation?",
+      "userAnswer": "It has no effect on sedimentation efficiency.",
+      "userIsCorrect": false,
+      "correctAnswer": "It increases efficiency because it reduces the viscosity of water."
+    },
+    {
+      "question": "What is the primary function of the inlet zone in a sedimentation tank?",
+      "userAnswer": "To distribute the incoming flow uniformly and dissipate its energy.",
+      "userIsCorrect": true,
+      "correctAnswer": "To distribute the incoming flow uniformly and dissipate its energy."
+    },
+    {
+      "question": "A particle will be 100% removed in an ideal horizontal flow sedimentation tank if its individual settling velocity (Vs) is:",
+      "userAnswer": "Equal to or greater than the surface overflow rate (Vo).",
+      "userIsCorrect": true,
+      "correctAnswer": "Equal to or greater than the surface overflow rate (Vo)."
+    },
+    {
+      "question": "What is the main difference between Type I (discrete) settling and Type II (flocculant) settling?",
+      "userAnswer": "In Type II settling, particles aggregate and their settling velocity increases as they fall.",
+      "userIsCorrect": true,
+      "correctAnswer": "In Type II settling, particles aggregate and their settling velocity increases as they fall."
+    },
+    {
+      "question": "The theoretical detention time in a sedimentation tank is calculated by which formula?",
+      "userAnswer": "Tank Volume / Flow Rate",
+      "userIsCorrect": true,
+      "correctAnswer": "Tank Volume / Flow Rate"
+    },
+    {
+      "question": "Stokes' Law is most accurate for describing the settling of particles under which conditions?",
+      "userAnswer": "Laminar flow around small, spherical particles.",
+      "userIsCorrect": true,
+      "correctAnswer": "Laminar flow around small, spherical particles."
+    },
+    {
+      "question": "What is the purpose of weir troughs placed at the outlet of a sedimentation tank?",
+      "userAnswer": "To collect the clarified water uniformly across the tank's width with minimal turbulence.",
+      "userIsCorrect": true,
+      "correctAnswer": "To collect the clarified water uniformly across the tank's width with minimal turbulence."
+    },
+    {
+      "question": "The resuspension of already settled particles due to high horizontal flow velocity is known as:",
+      "userAnswer": "Short-circuiting",
+      "userIsCorrect": false,
+      "correctAnswer": "Scour"
+    },
+    {
+      "question": "Why is sedimentation considered a crucial step before filtration in a conventional water treatment plant?",
+      "userAnswer": "It significantly reduces the load of suspended solids going to the filters.",
+      "userIsCorrect": true,
+      "correctAnswer": "It significantly reduces the load of suspended solids going to the filters."
+    }
+  ]
+}

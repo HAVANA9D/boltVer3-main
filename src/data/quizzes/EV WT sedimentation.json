@@ -1,0 +1,147 @@
+{
+  "subjectName": "Water treatment",
+  "title": "Sedimentation",
+  "difficulty": "Medium",
+  "type": "Theory",
+
+  "questions": [
+    {
+      "question": "What is the primary principle that governs the process of sedimentation in water treatment?",
+      "answerOptions": [
+        { "text": "Chemical reaction", "isCorrect": false },
+        { "text": "Biological absorption", "isCorrect": false },
+        { "text": "Gravity", "isCorrect": true },
+        { "text": "Adsorption", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In the context of sedimentation, what defines Type I, or discrete particle, settling?",
+      "answerOptions": [
+        { "text": "Particles aggregate and increase in size as they settle.", "isCorrect": false },
+        { "text": "Particles settle at a constant velocity without interacting with each other.", "isCorrect": true },
+        { "text": "Settling is hindered by high concentrations of particles.", "isCorrect": false },
+        { "text": "Particles settle due to compression of the particle structure.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which design parameter is considered the most critical for determining the removal efficiency of discrete particles in an ideal sedimentation tank?",
+      "answerOptions": [
+        { "text": "Tank depth", "isCorrect": false },
+        { "text": "Detention time", "isCorrect": false },
+        { "text": "Surface Overflow Rate (SOR)", "isCorrect": true },
+        { "text": "Length to width ratio", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "According to Stokes' Law for discrete particle settling, if the diameter of a spherical particle is doubled, how does its terminal settling velocity change, assuming all other factors remain constant?",
+      "answerOptions": [
+        { "text": "It remains the same.", "isCorrect": false },
+        { "text": "It doubles.", "isCorrect": false },
+        { "text": "It increases by a factor of four.", "isCorrect": true },
+        { "text": "It decreases by half.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the coagulation and flocculation processes that precede sedimentation?",
+      "answerOptions": [
+        { "text": "To disinfect the water by killing pathogens.", "isCorrect": false },
+        { "text": "To convert very small, non-settleable particles into larger, settleable flocs.", "isCorrect": true },
+        { "text": "To remove dissolved minerals like calcium and magnesium.", "isCorrect": false },
+        { "text": "To adjust the pH of the water to make it less corrosive.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In a sedimentation tank, 'short-circuiting' is a condition that adversely affects performance. What does this term mean?",
+      "answerOptions": [
+        { "text": "The tank overflows due to excessive inlet flow.", "isCorrect": false },
+        { "text": "Water flows through the tank faster than the theoretical detention time.", "isCorrect": true },
+        { "text": "The sludge removal mechanism gets stuck.", "isCorrect": false },
+        { "text": "The flow is perfectly uniform throughout the tank's cross-section.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does an increase in water temperature typically affect the efficiency of sedimentation?",
+      "answerOptions": [
+        { "text": "It decreases efficiency because particles become more buoyant.", "isCorrect": false },
+        { "text": "It has no effect on sedimentation efficiency.", "isCorrect": false },
+        { "text": "It increases efficiency because it reduces the viscosity of water.", "isCorrect": true },
+        { "text": "It decreases efficiency by promoting algae growth in the tank.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary function of the inlet zone in a sedimentation tank?",
+      "answerOptions": [
+        { "text": "To collect the settled sludge for removal.", "isCorrect": false },
+        { "text": "To provide a final polishing of the water before it exits.", "isCorrect": false },
+        { "text": "To ensure quiescent conditions for particle settling.", "isCorrect": false },
+        { "text": "To distribute the incoming flow uniformly and dissipate its energy.", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "A particle will be 100% removed in an ideal horizontal flow sedimentation tank if its individual settling velocity (Vs) is:",
+      "answerOptions": [
+        { "text": "Less than the surface overflow rate (Vo).", "isCorrect": false },
+        { "text": "Equal to or greater than the surface overflow rate (Vo).", "isCorrect": true },
+        { "text": "Equal to the horizontal flow-through velocity.", "isCorrect": false },
+        { "text": "Less than the scour velocity.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the main difference between Type I (discrete) settling and Type II (flocculant) settling?",
+      "answerOptions": [
+        { "text": "Type I occurs in circular tanks, while Type II occurs in rectangular tanks.", "isCorrect": false },
+        { "text": "Type I involves sand and grit, while Type II involves organic solids.", "isCorrect": false },
+        { "text": "In Type II settling, particles aggregate and their settling velocity increases as they fall.", "isCorrect": true },
+        { "text": "Type I settling is temperature-dependent, while Type II is not.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The theoretical detention time in a sedimentation tank is calculated by which formula?",
+      "answerOptions": [
+        { "text": "Tank Area / Flow Rate", "isCorrect": false },
+        { "text": "Flow Rate / Tank Surface Area", "isCorrect": false },
+        { "text": "Tank Volume / Flow Rate", "isCorrect": true },
+        { "text": "Tank Length / Horizontal Velocity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Stokes' Law is most accurate for describing the settling of particles under which conditions?",
+      "answerOptions": [
+        { "text": "Turbulent flow around large, irregular particles.", "isCorrect": false },
+        { "text": "Laminar flow around small, spherical particles.", "isCorrect": true },
+        { "text": "High solids concentrations where particles interfere with each other.", "isCorrect": false },
+        { "text": "Flocculating particles that are increasing in size.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of weir troughs placed at the outlet of a sedimentation tank?",
+      "answerOptions": [
+        { "text": "To add chemicals for disinfection.", "isCorrect": false },
+        { "text": "To skim floating scum from the water surface.", "isCorrect": false },
+        { "text": "To ensure the horizontal velocity is high enough to prevent settling in the trough.", "isCorrect": false },
+        { "text": "To collect the clarified water uniformly across the tank's width with minimal turbulence.", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "The resuspension of already settled particles due to high horizontal flow velocity is known as:",
+      "answerOptions": [
+        { "text": "Flocculation", "isCorrect": false },
+        { "text": "Short-circuiting", "isCorrect": false },
+        { "text": "Scour", "isCorrect": true },
+        { "text": "Hindered settling", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Why is sedimentation considered a crucial step before filtration in a conventional water treatment plant?",
+      "answerOptions": [
+        { "text": "It removes dissolved solids that would pass through filters.", "isCorrect": false },
+        { "text": "It significantly reduces the load of suspended solids going to the filters.", "isCorrect": true },
+        { "text": "It adds a protective layer of sludge onto the filter media.", "isCorrect": false },
+        { "text": "It is the primary step for pathogen removal.", "isCorrect": false }
+      ]
+    }
+  ]
+
+
+
+}

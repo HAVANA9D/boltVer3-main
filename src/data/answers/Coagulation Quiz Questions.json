@@ -1,0 +1,97 @@
+{
+  "quizTitle": "Coagulation",
+
+  "quizTitle": "Coagulation in Water Treatment",
+  "answeredQuestions": [
+    {
+      "question": "What is the primary objective of the coagulation process in water treatment?",
+      "userAnswer": "To destabilize colloidal particles by neutralizing their surface charges.",
+      "userIsCorrect": true,
+      "correctAnswer": "To destabilize colloidal particles by neutralizing their surface charges."
+    },
+    {
+      "question": "Why do colloidal particles in raw water tend to remain suspended for long periods?",
+      "userAnswer": "They possess a small, typically negative, electrical surface charge.",
+      "userIsCorrect": true,
+      "correctAnswer": "They possess a small, typically negative, electrical surface charge."
+    },
+    {
+      "question": "When alum (aluminum sulfate) is added to water, it consumes a certain chemical component to be effective. What is this component?",
+      "userAnswer": "Alkalinity",
+      "userIsCorrect": false,
+      "correctAnswer": "Alkalinity"
+    },
+    {
+      "question": "What is the primary mechanism of 'sweep coagulation'?",
+      "userAnswer": "Enmeshing colloidal particles in a large, sinking precipitate of metal hydroxide.",
+      "userIsCorrect": true,
+      "correctAnswer": "Enmeshing colloidal particles in a large, sinking precipitate of metal hydroxide."
+    },
+    {
+      "question": "The laboratory procedure used to determine the optimal dose of a coagulant is known as the:",
+      "userAnswer": "Turbidity Test",
+      "userIsCorrect": true,
+      "correctAnswer": "Jar Test"
+    },
+    {
+      "question": "What is the primary purpose of the rapid mix (or flash mix) stage in the coagulation process?",
+      "userAnswer": "To quickly and uniformly disperse the coagulant chemical throughout the water.",
+      "userIsCorrect": true,
+      "correctAnswer": "To quickly and uniformly disperse the coagulant chemical throughout the water."
+    },
+    {
+      "question": "The effectiveness of alum as a coagulant is highly dependent on which water quality parameter?",
+      "userAnswer": "",
+      "userIsCorrect": false,
+      "correctAnswer": "pH"
+    },
+    {
+      "question": "A measure of the magnitude of the repulsive electrostatic forces between adjacent colloidal particles is known as:",
+      "userAnswer": "Zeta Potential",
+      "userIsCorrect": true,
+      "correctAnswer": "Zeta Potential"
+    },
+    {
+      "question": "Which of the following is a primary advantage of using ferric salts (like ferric chloride) over alum?",
+      "userAnswer": "They are effective over a wider pH range.",
+      "userIsCorrect": true,
+      "correctAnswer": "They are effective over a wider pH range."
+    },
+    {
+      "question": "The coagulation mechanism where high concentrations of ions compress the diffuse electrical layer surrounding a colloid is called:",
+      "userAnswer": "Double-Layer Compression",
+      "userIsCorrect": true,
+      "correctAnswer": "Double-Layer Compression"
+    },
+    {
+      "question": "How does a significant drop in water temperature typically affect coagulation?",
+      "userAnswer": "",
+      "userIsCorrect": false,
+      "correctAnswer": "It hinders efficiency by slowing down chemical reaction rates and increasing water viscosity."
+    },
+    {
+      "question": "What is the main role of coagulant aids, such as activated silica or polymers?",
+      "userAnswer": "To strengthen the floc, increase its density, and improve settling.",
+      "userIsCorrect": true,
+      "correctAnswer": "To strengthen the floc, increase its density, and improve settling."
+    },
+    {
+      "question": "If raw water has very low turbidity, coagulation can sometimes be difficult. Why?",
+      "userAnswer": "There are not enough colloidal particles to promote the formation of large flocs.",
+      "userIsCorrect": true,
+      "correctAnswer": "There are not enough colloidal particles to promote the formation of large flocs."
+    },
+    {
+      "question": "What is the key difference between coagulation and flocculation?",
+      "userAnswer": "Coagulation is the chemical destabilization of particles, while flocculation is the physical process of bringing them together.",
+      "userIsCorrect": true,
+      "correctAnswer": "Coagulation is the chemical destabilization of particles, while flocculation is the physical process of bringing them together."
+    },
+    {
+      "question": "Interparticle bridging is a coagulation mechanism most characteristic of which type of coagulant?",
+      "userAnswer": "Polymers",
+      "userIsCorrect": true,
+      "correctAnswer": "Polymers"
+    }
+  ]
+}
