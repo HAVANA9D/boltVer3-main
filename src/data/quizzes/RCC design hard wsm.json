@@ -1,0 +1,143 @@
+{
+  "subjectName": "RCC Design Philosophies",
+  "title": "Working Stress Method",
+  "difficulty": "Mixed (Easy to Hard)",
+  "type": "Theory & Problems",
+  "questions": [
+    {
+      "question": "[Problem] For M20 grade concrete, what is the value of the modular ratio 'm' as per the formula $m = \\frac{280}{3\\sigma_{cbc}}$?",
+      "answerOptions": [
+        { "text": "10.98", "isCorrect": false },
+        { "text": "18.66", "isCorrect": false },
+        { "text": "13.33", "isCorrect": true },
+        { "text": "9.33", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Problem] A singly reinforced rectangular beam has an effective depth of 500 mm. If M20 concrete and Fe415 steel are used, what is the depth of the critical neutral axis ($x_c$)? (Use m=13.33, $\\sigma_{st}=230$ MPa)",
+      "answerOptions": [
+        { "text": "200 mm", "isCorrect": false },
+        { "text": "144 mm", "isCorrect": true },
+        { "text": "245 mm", "isCorrect": false },
+        { "text": "188 mm", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Problem] For a balanced rectangular section using M20 concrete and Fe415 steel, what is the lever arm factor 'j'? (Use neutral axis factor k=0.288)",
+      "answerOptions": [
+        { "text": "0.870", "isCorrect": false },
+        { "text": "0.933", "isCorrect": false },
+        { "text": "0.841", "isCorrect": false },
+        { "text": "0.904", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "[Problem] Calculate the moment of resistance of a balanced rectangular section with width b=300 mm and effective depth d=500 mm, using M25 concrete ($\\sigma_{cbc}=8.5$ MPa) and Fe250 steel ($\\sigma_{st}=140$ MPa).",
+      "answerOptions": [
+        { "text": "110.5 kNm", "isCorrect": true },
+        { "text": "95.2 kNm", "isCorrect": false },
+        { "text": "125.8 kNm", "isCorrect": false },
+        { "text": "88.4 kNm", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Problem] A beam with b=250mm, d=400mm, $A_{st}$=1256 mm², M20 concrete, and Fe415 steel has an actual neutral axis depth of 175 mm and a critical neutral axis depth of 115 mm. How would you classify this section?",
+      "answerOptions": [
+        { "text": "Under-reinforced", "isCorrect": false },
+        { "text": "Balanced", "isCorrect": false },
+        { "text": "Over-reinforced", "isCorrect": true },
+        { "text": "Insufficient data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Problem] A simply supported beam is subjected to a service moment of 100 kNm. If the section is 300mm wide with an effective depth of 500mm, what is the required area of Fe415 steel ($\\sigma_{st}=230$ MPa)? Assume a lever arm factor j=0.904.",
+      "answerOptions": [
+        { "text": "1255 mm²", "isCorrect": false },
+        { "text": "962 mm²", "isCorrect": true },
+        { "text": "1100 mm²", "isCorrect": false },
+        { "text": "850 mm²", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Problem] According to IS 456, what is the permissible tensile stress ($\\sigma_{st}$) for an Fe415 grade steel bar with a diameter of 25 mm?",
+      "answerOptions": [
+        { "text": "140 MPa", "isCorrect": false },
+        { "text": "190 MPa", "isCorrect": false },
+        { "text": "230 MPa", "isCorrect": true },
+        { "text": "250 MPa", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] How does the phenomenon of creep in concrete affect the stresses in steel and concrete over the long term under sustained loads in WSM?",
+      "answerOptions": [
+        { "text": "It increases the stress in concrete and decreases the stress in steel.", "isCorrect": false },
+        { "text": "It decreases stresses in both materials due to stress relaxation.", "isCorrect": false },
+        { "text": "It increases the effective modular ratio, causing a transfer of compressive stress from concrete to steel.", "isCorrect": true },
+        { "text": "It has no effect on stress distribution, only on overall deflection.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] WSM is considered unsuitable for ultimate load design because its 'Factor of Safety' is notional. Why is the true margin of safety against collapse unknown in this method?",
+      "answerOptions": [
+        { "text": "Because it neglects the tensile strength of concrete.", "isCorrect": false },
+        { "text": "Because it doesn't account for the non-linear, plastic behavior of materials near their failure state.", "isCorrect": true },
+        { "text": "Because the assumed value of Young's Modulus for concrete is often inaccurate.", "isCorrect": false },
+        { "text": "Because it applies the factor of safety to stresses instead of loads.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] In the WSM analysis of a T-beam, what is the primary implication if the calculated neutral axis depth 'x' is found to be greater than the flange depth '$D_f$?'",
+      "answerOptions": [
+        { "text": "The section must be redesigned with a thicker flange.", "isCorrect": false },
+        { "text": "The beam will behave as a rectangular beam of width equal to the web width '$b_w$'.", "isCorrect": false },
+        { "text": "The analysis must consider the flanged shape, and the compression force is calculated in two parts (flange and web).", "isCorrect": true },
+        { "text": "The beam is inherently unsafe and will fail in compression.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] The permissible stress in bending compression ($\\sigma_{cbc}$) is higher than in direct compression ($\\sigma_{cc}$). This is justified by stress redistribution. Why is this justification somewhat contradictory to the core assumptions of WSM?",
+      "answerOptions": [
+        { "text": "Because WSM assumes steel carries all the tension.", "isCorrect": false },
+        { "text": "Because stress redistribution is a phenomenon of plastic, non-linear behavior, whereas WSM assumes purely linear-elastic behavior.", "isCorrect": true },
+        { "text": "Because the modular ratio already accounts for all stress variations.", "isCorrect": false },
+        { "text": "Because bending loads are inherently less critical than axial loads.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] Why is WSM still sometimes preferred for designing structures like water tanks, despite being largely superseded by LSM?",
+      "answerOptions": [
+        { "text": "Because it results in thinner, more economical sections for such structures.", "isCorrect": false },
+        { "text": "Because the calculations are simpler and faster for liquid loads.", "isCorrect": false },
+        { "text": "Because its focus on limiting stresses at service loads provides better control over cracking, a key serviceability concern.", "isCorrect": true },
+        { "text": "Because LSM cannot be applied to structures subjected to hydrostatic pressure.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] A major conceptual flaw of WSM is its handling of different load types. Which statement best describes this limitation?",
+      "answerOptions": [
+        { "text": "It cannot handle dynamic loads like earthquakes.", "isCorrect": false },
+        { "text": "It applies the same factor of safety to loads of different variability, such as highly predictable Dead Loads and uncertain Live Loads.", "isCorrect": true },
+        { "text": "It requires separate and complex calculations for each load combination.", "isCorrect": false },
+        { "text": "It systematically overestimates the magnitude of all applied loads.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] What is the primary role of adding compression reinforcement in a doubly reinforced beam designed using WSM, beyond simply increasing its moment of resistance?",
+      "answerOptions": [
+        { "text": "To reduce the long-term deflection due to creep and shrinkage.", "isCorrect": true },
+        { "text": "To ensure the section fails in a brittle compression failure mode.", "isCorrect": false },
+        { "text": "To decrease the depth of the neutral axis, thus making the section more brittle.", "isCorrect": false },
+        { "text": "To eliminate the need for shear reinforcement.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "[Hard Theory] If the cost of steel is unusually high relative to concrete, which WSM design approach might be more 'economical' in terms of total cost, contrary to conventional wisdom?",
+      "answerOptions": [
+        { "text": "An under-reinforced section, as it uses a lower percentage of steel.", "isCorrect": true },
+        { "text": "An over-reinforced section, as it maximizes the use of cheaper concrete.", "isCorrect": false },
+        { "text": "A balanced section, as it is always the most efficient use of both materials.", "isCorrect": false },
+        { "text": "A doubly reinforced section, as it minimizes the overall depth.", "isCorrect": false }
+      ]
+    }
+  ]
+}

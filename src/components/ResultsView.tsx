@@ -3,6 +3,7 @@ import { ArrowLeft, Trophy, CheckCircle, XCircle, Sparkles, Download } from 'luc
 import { View } from '../App';
 import { getQuizResult, getQuiz, QuizResult, Quiz } from '../utils/database';
 import { AIAnalysisModal } from './AIAnalysisModal';
+import { MathText } from './MathText';
 
 interface ResultsViewProps {
   resultId: string;
@@ -134,10 +135,7 @@ export function ResultsView({ resultId, onNavigate }: ResultsViewProps) {
                 </div>
 
                 <div className="flex-1 min-w-0">
-                  <p className="text-slate-800 font-medium mb-4">
-                    {index + 1}. {answer.question}
-                  </p>
-
+                  <MathText text={`${index + 1}. ${answer.question}`} className="text-slate-800 font-medium mb-4" />
                   <div className="space-y-3 text-sm">
                     <div className={`border-l-4 p-3 rounded-r-md ${
                         answer.userIsCorrect

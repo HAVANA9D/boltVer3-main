@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
+import { MathText } from './MathText';
 import { View } from '../App';
 import { getQuiz, saveQuizResult, Quiz } from '../utils/database';
 
@@ -137,7 +138,7 @@ export function QuizView({ quizId, onNavigate }: QuizViewProps) {
             <p className="text-slate-600 mb-2">
               Question {quizState.currentQuestionIndex + 1} of {quiz.questions.length}
             </p>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-8">{currentQuestion.question}</h2>
+            <MathText text={currentQuestion.question} className="text-2xl font-semibold text-slate-800 mb-8" />
             <div className="space-y-4">
               {currentQuestion.answerOptions.map((option, index) => (
                 <button

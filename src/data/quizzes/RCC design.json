@@ -1,0 +1,143 @@
+{
+  "subjectName": "RCC Design Philosophies",
+  "title": "Working Stress Method",
+  "difficulty": "Medium",
+  "type": "Theory",
+  "questions": [
+    {
+      "question": "In the Working Stress Method, what is the primary purpose of the modular ratio, 'm'?",
+      "answerOptions": [
+        { "text": "To account for the difference in the modulus of elasticity between steel and concrete.", "isCorrect": true },
+        { "text": "To apply a factor of safety to the material strengths.", "isCorrect": false },
+        { "text": "To determine the ultimate load-carrying capacity of the section.", "isCorrect": false },
+        { "text": "To calculate the effects of long-term creep in concrete.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Why is the permissible compressive stress in bending ($\\sigma_{cbc}$) for concrete higher than the permissible stress in direct compression ($\\sigma_{cc}$)?",
+      "answerOptions": [
+        { "text": "Because the stress distribution in bending is triangular, not uniform.", "isCorrect": true },
+        { "text": "Because bending loads are always smaller than direct compression loads.", "isCorrect": false },
+        { "text": "Because the presence of steel reinforcement helps carry the compressive load.", "isCorrect": false },
+        { "text": "Because concrete is inherently stronger in bending than in direct compression.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "An under-reinforced section in WSM is designed such that:",
+      "answerOptions": [
+        { "text": "Steel reaches its permissible stress before concrete.", "isCorrect": true },
+        { "text": "Concrete reaches its permissible stress before steel.", "isCorrect": false },
+        { "text": "Both steel and concrete reach their permissible stresses simultaneously.", "isCorrect": false },
+        { "text": "The depth of the actual neutral axis is greater than the critical neutral axis.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the concept of a 'transformed section' used for in WSM analysis?",
+      "answerOptions": [
+        { "text": "To analyze a reinforced concrete section as if it were made of a single, homogeneous material.", "isCorrect": true },
+        { "text": "To increase the calculated moment of inertia of the section.", "isCorrect": false },
+        { "text": "To account for the non-linear stress-strain behavior of concrete.", "isCorrect": false },
+        { "text": "To calculate the shear stress distribution in the beam.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a significant limitation of the Working Stress Method?",
+      "answerOptions": [
+        { "text": "It does not provide a realistic measure of the structure's true factor of safety against collapse.", "isCorrect": true },
+        { "text": "It results in very thin and uneconomical sections compared to the Limit State Method.", "isCorrect": false },
+        { "text": "It cannot be used for the design of water tanks or other serviceability-critical structures.", "isCorrect": false },
+        { "text": "It ignores the tensile strength of concrete.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In WSM, if the actual neutral axis depth ($x$) is less than the critical neutral axis depth ($x_c$), the section is classified as:",
+      "answerOptions": [
+        { "text": "Under-reinforced", "isCorrect": true },
+        { "text": "Over-reinforced", "isCorrect": false },
+        { "text": "Balanced", "isCorrect": false },
+        { "text": "Critically-reinforced", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The Factor of Safety in WSM is applied by:",
+      "answerOptions": [
+        { "text": "Dividing the material's yield/ultimate strength by a factor to get permissible stress.", "isCorrect": true },
+        { "text": "Multiplying the working loads by a factor to get the design load.", "isCorrect": false },
+        { "text": "Ensuring the strain in concrete does not exceed a specific limit.", "isCorrect": false },
+        { "text": "Using a lower value for the modulus of elasticity of concrete.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "A key assumption of WSM, which is also shared by LSM, is:",
+      "answerOptions": [
+        { "text": "A plane section before bending remains plane after bending.", "isCorrect": true },
+        { "text": "The stress-strain curve for concrete is parabolic.", "isCorrect": false },
+        { "text": "Partial safety factors are applied to loads and materials.", "isCorrect": false },
+        { "text": "The design is based on the collapse state of the structure.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In an over-reinforced section designed by WSM, what is the mode of failure?",
+      "answerOptions": [
+        { "text": "Sudden crushing of concrete in the compression zone.", "isCorrect": true },
+        { "text": "Gradual yielding of steel in the tension zone.", "isCorrect": false },
+        { "text": "Simultaneous crushing of concrete and yielding of steel.", "isCorrect": false },
+        { "text": "Shear failure before flexural failure.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In WSM, when is compression reinforcement in a doubly reinforced beam considered?",
+      "answerOptions": [
+        { "text": "When the applied bending moment exceeds the moment of resistance of a balanced section for the given dimensions.", "isCorrect": true },
+        { "text": "In all T-beams and L-beams.", "isCorrect": false },
+        { "text": "When using mild steel (Fe 250) instead of high-yield strength steel.", "isCorrect": false },
+        { "text": "To ensure the section is always under-reinforced.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The term 'lever arm' in WSM refers to the distance between:",
+      "answerOptions": [
+        { "text": "The resultant compressive force and the resultant tensile force.", "isCorrect": true },
+        { "text": "The extreme compression fiber and the centroid of the tension steel.", "isCorrect": false },
+        { "text": "The neutral axis and the centroid of the tension steel.", "isCorrect": false },
+        { "text": "The extreme compression fiber and the neutral axis.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "How does the Working Stress Method account for different types of loads like Dead Load (DL) and Live Load (LL)?",
+      "answerOptions": [
+        { "text": "It treats all loads the same and does not apply different factors of safety to them.", "isCorrect": true },
+        { "text": "It applies a higher factor of safety to Live Loads than to Dead Loads.", "isCorrect": false },
+        { "text": "It uses different permissible stresses depending on the load combination.", "isCorrect": false },
+        { "text": "It analyzes the structure separately for Dead Load and Live Load.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The formula for the critical neutral axis depth ($x_c$) in WSM depends on:",
+      "answerOptions": [
+        { "text": "The modular ratio and the effective depth.", "isCorrect": true },
+        { "text": "The area of steel provided and the width of the beam.", "isCorrect": false },
+        { "text": "The applied bending moment only.", "isCorrect": false },
+        { "text": "The grade of concrete only.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which statement best reflects the economic implications of WSM?",
+      "answerOptions": [
+        { "text": "It generally leads to larger and heavier sections compared to LSM.", "isCorrect": true },
+        { "text": "It is more economical because it uses simpler calculations.", "isCorrect": false },
+        { "text": "It allows for higher stresses in steel, making it more efficient.", "isCorrect": false },
+        { "text": "It has no significant economic difference from the Limit State Method.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The design philosophy of WSM is most suitable for which of the following design criteria?",
+      "answerOptions": [
+        { "text": "Serviceability criteria like crack control and deflection.", "isCorrect": true },
+        { "text": "Ultimate strength and collapse prevention.", "isCorrect": false },
+        { "text": "Earthquake and seismic design.", "isCorrect": false },
+        { "text": "Probabilistic assessment of structural safety.", "isCorrect": false }
+      ]
+    }
+  ]
+}

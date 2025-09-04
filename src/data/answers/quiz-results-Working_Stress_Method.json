@@ -1,0 +1,95 @@
+{
+  "quizTitle": "Working Stress Method",
+  "answeredQuestions": [
+    {
+      "question": "In the Working Stress Method, what is the primary purpose of the modular ratio, 'm'?",
+      "userAnswer": "To account for the difference in the modulus of elasticity between steel and concrete.",
+      "userIsCorrect": true,
+      "correctAnswer": "To account for the difference in the modulus of elasticity between steel and concrete."
+    },
+    {
+      "question": "Why is the permissible compressive stress in bending ($\\sigma_{cbc}$) for concrete higher than the permissible stress in direct compression ($\\sigma_{cc}$)?",
+      "userAnswer": "No answer",
+      "userIsCorrect": false,
+      "correctAnswer": "Because the stress distribution in bending is triangular, not uniform."
+    },
+    {
+      "question": "An under-reinforced section in WSM is designed such that:",
+      "userAnswer": "Steel reaches its permissible stress before concrete.",
+      "userIsCorrect": true,
+      "correctAnswer": "Steel reaches its permissible stress before concrete."
+    },
+    {
+      "question": "What is the concept of a 'transformed section' used for in WSM analysis?",
+      "userAnswer": "To analyze a reinforced concrete section as if it were made of a single, homogeneous material.",
+      "userIsCorrect": true,
+      "correctAnswer": "To analyze a reinforced concrete section as if it were made of a single, homogeneous material."
+    },
+    {
+      "question": "Which of the following is a significant limitation of the Working Stress Method?",
+      "userAnswer": "It results in very thin and uneconomical sections compared to the Limit State Method.",
+      "userIsCorrect": false,
+      "correctAnswer": "It does not provide a realistic measure of the structure's true factor of safety against collapse."
+    },
+    {
+      "question": "In WSM, if the actual neutral axis depth ($x$) is less than the critical neutral axis depth ($x_c$), the section is classified as:",
+      "userAnswer": "Under-reinforced",
+      "userIsCorrect": true,
+      "correctAnswer": "Under-reinforced"
+    },
+    {
+      "question": "The Factor of Safety in WSM is applied by:",
+      "userAnswer": "No answer",
+      "userIsCorrect": false,
+      "correctAnswer": "Dividing the material's yield/ultimate strength by a factor to get permissible stress."
+    },
+    {
+      "question": "A key assumption of WSM, which is also shared by LSM, is:",
+      "userAnswer": "A plane section before bending remains plane after bending.",
+      "userIsCorrect": true,
+      "correctAnswer": "A plane section before bending remains plane after bending."
+    },
+    {
+      "question": "In an over-reinforced section designed by WSM, what is the mode of failure?",
+      "userAnswer": "Sudden crushing of concrete in the compression zone.",
+      "userIsCorrect": true,
+      "correctAnswer": "Sudden crushing of concrete in the compression zone."
+    },
+    {
+      "question": "In WSM, when is compression reinforcement in a doubly reinforced beam considered?",
+      "userAnswer": "When the applied bending moment exceeds the moment of resistance of a balanced section for the given dimensions.",
+      "userIsCorrect": true,
+      "correctAnswer": "When the applied bending moment exceeds the moment of resistance of a balanced section for the given dimensions."
+    },
+    {
+      "question": "The term 'lever arm' in WSM refers to the distance between:",
+      "userAnswer": "The resultant compressive force and the resultant tensile force.",
+      "userIsCorrect": true,
+      "correctAnswer": "The resultant compressive force and the resultant tensile force."
+    },
+    {
+      "question": "How does the Working Stress Method account for different types of loads like Dead Load (DL) and Live Load (LL)?",
+      "userAnswer": "It applies a higher factor of safety to Live Loads than to Dead Loads.",
+      "userIsCorrect": false,
+      "correctAnswer": "It treats all loads the same and does not apply different factors of safety to them."
+    },
+    {
+      "question": "The formula for the critical neutral axis depth ($x_c$) in WSM depends on:",
+      "userAnswer": "No answer",
+      "userIsCorrect": false,
+      "correctAnswer": "The modular ratio and the effective depth."
+    },
+    {
+      "question": "Which statement best reflects the economic implications of WSM?",
+      "userAnswer": "It generally leads to larger and heavier sections compared to LSM.",
+      "userIsCorrect": true,
+      "correctAnswer": "It generally leads to larger and heavier sections compared to LSM."
+    },
+    {
+      "question": "The design philosophy of WSM is most suitable for which of the following design criteria?",
+      "userAnswer": "Serviceability criteria like crack control and deflection.",
+      "userIsCorrect": true,
+      "correctAnswer": "Serviceability criteria like crack control and deflection."
+    }
+  ]
+}
